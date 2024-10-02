@@ -1,22 +1,26 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
     --colorgreen: hsl(75, 94%, 57%);
     --colorgray500: hsl(0, 0%, 80%);
     --colorgray700: hsl(0, 0%, 20%);
     --colorgray800: hsl(0, 0%, 12%);
     --colorgray900: hsl(0, 0%, 8%);
     --colorwhite: #fff;
-}
+} */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-}
-
+} */
 a {
     text-decoration: none;
 }
+/* 
 
 .container {
     height: 100vh;
@@ -58,19 +62,22 @@ h2 {
     margin: 1.2rem;
     font-weight: 600;
 }
+    */
 
 .social-links {
     width: 95%;
-    background: var(--colorgray700);
-    color: var(--colorwhite);
-    margin: .5rem 0;
-    border-radius: .5rem;
+    background: theme('colors.colorgray700');
+    color: theme('colors.colorwhite');
+    margin: 0.5rem 0;
+    /* border: 0.1rem solid theme('colors.colorgray700'); */
+    border-radius: 0.5rem;
     text-align: center;
     padding: 1rem 0;
     font-weight: 700;
 }
 
+/*
 .social-links:hover, .social-links:focus {
     background: var(--colorgreen);
     color: var(--colorgray900);
-}
+} */
