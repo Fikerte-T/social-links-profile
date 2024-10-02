@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i style.css -o ./src/output.css --watch"
+    "dev": "tailwindcss -i ./src/style.css -o ./src/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Fikerte-T/social-links-profile/issues"
   },
-  "homepage": "https://github.com/Fikerte-T/social-links-profile#readme"
+  "homepage": "https://github.com/Fikerte-T/social-links-profile#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
 }
