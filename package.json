@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./src/style.css -o ./src/output.css --watch"
+    "build": "npx tailwindcss -i ./src/style.css -o ./src/output.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Fikerte-T/social-links-profile#readme",
   "devDependencies": {
-    "tailwindcss": "^3.4.13"
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
   }
 }
