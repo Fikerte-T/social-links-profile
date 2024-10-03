@@ -555,14 +555,14 @@ video {
 }
 
 .social-links {
-  text-decoration: none;
-  width: 95%;
   background: hsl(0, 0%, 20%);
   color: #fff;
+  text-decoration: none;
+  width: 95%;
   margin: 0.5rem 0;
   border-radius: 0.5rem;
   text-align: center;
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   font-weight: 700;
 }
 
@@ -576,14 +576,13 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .flex {
@@ -598,8 +597,8 @@ video {
   height: 100vh;
 }
 
-.w-2\/5 {
-  width: 40%;
+.w-4\/12 {
+  width: 33.333333%;
 }
 
 .w-\[22rem\] {
