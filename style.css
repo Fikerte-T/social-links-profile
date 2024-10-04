@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .social-links {
+        background: theme('colors.colorgray700');
+        color: theme('colors.colorwhite');
+        text-decoration: none;
+        width: 95%;
+        margin: 0.5rem 0;
+        border-radius: 0.5rem;
+        text-align: center;
+        padding: 0.8rem 0;
+        font-weight: 700;
+    }
+
+    .social-links:hover, .social-links:focus {
+        background: theme('colors.colorgreen');
+        color: theme('colors.colorgray900');
+    } 
+}
+
+
+
