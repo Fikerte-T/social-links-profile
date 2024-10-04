@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Fikerte-T/social-links-profile)
-- Live Site URL: [Add live site URL here](https://fikerte-t.github.io/social-links-profile/)
+- Solution URL: [Solution URL here](https://github.com/Fikerte-T/social-links-profile)
+- Live Site URL: [Live site URL here](https://fikerte-t.github.io/social-links-profile/)
 
 ## My process
 
