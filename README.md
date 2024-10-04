@@ -37,7 +37,7 @@ git clone git@github.com:Fikerte-T/social-links-profile.git
 npm install
 ```
 ```
-npm run dev
+npm run build
 ```
 
 
