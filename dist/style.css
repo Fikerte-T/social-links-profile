@@ -562,7 +562,7 @@ video {
   margin: 0.5rem 0;
   border-radius: 0.5rem;
   text-align: center;
-  padding: 0.8rem 0;
+  padding: 0.6rem 0;
   font-weight: 700;
 }
 
@@ -576,37 +576,34 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .flex {
   display: flex;
 }
 
-.grid {
-  display: grid;
+.min-h-screen {
+  min-height: 100vh;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.w-4\/12 {
-  width: 33.333333%;
-}
-
-.w-\[22rem\] {
-  width: 22rem;
+.w-24 {
+  width: 6rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.max-w-\[22rem\] {
+  max-width: 22rem;
 }
 
 .flex-col {
@@ -617,12 +614,8 @@ video {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
-.place-self-center {
-  place-self: center;
+.justify-center {
+  justify-content: center;
 }
 
 .rounded-full {
@@ -648,19 +641,19 @@ video {
   padding-right: 1rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-medium {
